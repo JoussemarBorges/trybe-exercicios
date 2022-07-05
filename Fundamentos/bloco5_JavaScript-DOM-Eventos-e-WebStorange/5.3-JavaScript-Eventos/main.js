@@ -80,6 +80,8 @@ thirdLi.addEventListener('click', addClasstech);
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
 
+    //   minha solução:
+
 function colorChange (event){
 
     event.target.style.color = 'green';
@@ -87,7 +89,7 @@ function colorChange (event){
 
 myWebpage.addEventListener('mouseover', colorChange);
 
-// solução no gabarito:
+// solução no gabarito, porém voltando a cor para branco:
 
 myWebpage.addEventListener('mouseleave', function(event){
 
