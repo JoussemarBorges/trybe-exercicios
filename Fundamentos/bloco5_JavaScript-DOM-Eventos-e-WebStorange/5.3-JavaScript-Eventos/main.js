@@ -19,6 +19,7 @@ function addClasstech(event) {
   elementTech.classList.remove("tech");
   event.target.classList.add("tech");
   input.value = "";
+  console.log(elementTech);
 }
 
 firstLi.addEventListener('click', addClasstech);
