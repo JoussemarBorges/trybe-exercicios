@@ -1,0 +1,19 @@
+body{
+    background-color: darkgray;
+}
+
+h1, p{
+    text-align: center;
+}
+
+li:hover{
+    background-color: green;
+}
+
+li:active{
+    color: white;
+}
+
+ol, ul{
+    list-style: none;
+}
