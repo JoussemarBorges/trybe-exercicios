@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafos">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafos">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = "GALO!!!!"
+
+      document.getElementById("second-paragraph").innerText = "Apesar de estar pressionado, o técnico do Galo vem demonstrando versatilidade para conseguir os bons resultados e vai com tudo pra cima do EMELEC hoje na Libertadores!"
+      
+      document.getElementById("subtitle").innerText = "Hoje tem galo na Libertadores!!! Vai GALO!!!"
+
+      const p1 = document.getElementsByClassName("paragrafos")[0];
+      p1.style.color = "green";
+
+      const sb1 = document.getElementsByTagName("h4")[0];
+
+      sb1.style.color = "white";
+      sb1.style.backgroundColor = "Black"
+    </script>
+  </body>
+</html>
