@@ -1,0 +1,5 @@
+HTML
+CSS
+Phyton
+TypeScript
+Soft Skills
